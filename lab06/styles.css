@@ -1,5 +1,7 @@
 body{font-family: Georgia, 'Times New Roman', Times, serif;}
 h1, h2{color:olive}
-.evenrow{background-color:seagreen}
+.evenrow{background-color:olive}
 h1{font-size: 3em;}
 h2{font-size: 1.5em;}
+caption{color:olive}
+caption{font-size: 2em;}
