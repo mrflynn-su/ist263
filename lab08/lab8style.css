@@ -8,3 +8,5 @@ nav a:hover {background-color: #FF4E50}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
 label {color: #ff8214;}
+.part1 {justify-content: space-between;}
+.part2 {justify-content: space-between;}
