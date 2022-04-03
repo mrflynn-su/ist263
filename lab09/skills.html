@@ -5,63 +5,38 @@
         <title>Skills</title>
         <style>
             table, th, td {border: 1px solid olive;}
+            .center {margin: auto; width: 50%;}
+            .technicalskills {display: flex; flex: 0.75; justify-content: space-between; margin: 30px;}
+            .otherskills {display: flex; background-color: #fac8d5; border-radius: 1em; flex: 0.25; margin: 30px;}
+            .flexbox2 {display: flex;}
+            .intro {margin: 30px; display: flex; flex: 0.5;}
+            .header {margin: 20px;}
+            .content {margin-left: 0px; margin-right: 10px;}
         </style>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Technical Skills</h1>
-        <table>
-            <caption>Technical Skills</caption>
-            <tr>
-                <th>Category</th>
-                <th>Skill</th>
-                <th>Competency Level</th>
-            </tr>
-            <tr class="evenrow">
-                <td>Coding</td>
-                <td>Python</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr>
-                <td>Web</td>
-                <td>HTML</td>
-                <td>Beginner</td>
-            </tr>
-            <tr class="evenrow">
-                <td>Software</td>
-                <td>Microsoft Excel</td>
-                <td>Beginner</td>
-            </tr>
-            <tr>
-                <td>Coding</td>
-                <td>SQL</td>
-                <td>Beginner</td>
-            </tr>
-            <tr class="evenrow">
-                <td>Graphics</td>
-                <td>Photoshop</td>
-                <td>Beginner</td>
-            </tr>
-            <tr>
-                <td>Software</td>
-                <td>PowerPoint</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr class="evenrow">
-                <td>Software</td>
-                <td>Google Docs</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>Social Media</td>
-                <td>Instagram</td>
-                <td>Advanced</td>
-            </tr>
-            <tr class="evenrow">
-                <td>Web</td>
-                <td>WordPress</td>
-                <td>Beginner</td>
-            </tr>
-        </table>
+        <nav>
+            <a href="index.html">Home | </a>
+            <a href="skills.html">Skills | </a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1 class="center">Technical Skills</h1>
+        <p class="intro">Throughout my time in undergrad, I've taken many courses that have helped to enhance my technical skills. These courses have taught me a variety of different skills, ranging from coding to using Microsoft applications. So far, I have taken Python, SQL, and HTML. I have also become very familiar with Microsoft Excel and PowerPoint. I have even learned a little bit of Photoshop. My technical skills that I've learned throughout the years can be seen below.</p>
+        <div class="flexbox2">
+            <div class="technicalskills">
+                <div><img src="../images/html.png" alt="HTML" width="100"><p>HTML</p></div>
+                <div><img src="../images/sql.png" alt="SQL" width="100"><p>SQL</p></div>
+                <div><img src="../images/photoshop.png" alt="Photoshop" width="100"><p>Photoshop</p></div>
+                <div><img src="../images/python.png" alt="Python" width="100"><p>Python</p></div>
+                <div><img src="../images/excel.png" alt="Excel" width="100"><p>Excel</p></div>
+            </div>
+            <div>
+                <aside class="otherskills">
+                    <h2 class="header">Other Skills</h2>
+                    <p class="content"><br><br>Excel<br>PowerPoint<br>Google Docs<br>WordPress<br>Instagram</p>
+                </aside>
+            </div>
+        </div>
     </body>
 </html>
