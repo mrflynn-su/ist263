@@ -1,0 +1,12 @@
+body {background-color: #EDE574}
+p {color: #ff8214}
+a {color: #ffe014}
+h1, h2 {color: #FF4E50}
+nav {background-color: #E1F5C4;}
+nav a {color: #ff8214}
+nav a:hover {background-color: #FF4E50}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+label {color: #ff8214;}
+.photoshop {max-width: 100%;}
+@media only screen and (max-width: 600px) {nav a {display: block} span {display: none}}
