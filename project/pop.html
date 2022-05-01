@@ -9,21 +9,24 @@
             li {color: #b84dff; font-family: Arial; text-align: center;}
             h2 {color: #ff3385; font-family: Arial; text-align: center;}
             h3 {font-family: Arial; color: #5900b3; text-align:center}
+            caption {font-family: Arial; color: #5900b3; text-align:center; font-weight: bold; font-size: 20px;}
             h4 {font-family: Arial; color: #b84dff; text-align: center;}
             table {font-family: Arial; color: #9900ff;}
             nav {background-color: #cc99ff; font-family: Arial; text-align: center; font-size: 25px;}
             nav a {color: #5900b3;}
-            .postimageandtable {display: flex;}
+            .postimageandtable {display: flex; align-items: center; justify-content: center;}
             .postmusicvideos {display: flex;}
-            .dojaimageandtable {display: flex;}
+            .dojaimageandtable {display: flex; align-items: center; justify-content: center;}
             .dojamusicvideos {display: flex;}
-            .blackbearimageandtable {display:flex;}
+            .blackbearimageandtable {display:flex; align-items: center; justify-content: center;}
             .blackbearmusicvideos {display: flex;}
-            .billieimageandtable {display: flex;}
+            .billieimageandtable {display: flex; align-items: center; justify-content: center;}
             .billiemusicvideos {display: flex;}
-            .khalidimageandtable {display: flex;}
+            .khalidimageandtable {display: flex; align-items: center; justify-content: center;}
             .khalidmusicvideos {display: flex;}
             a:hover {color:#ff3385;}
+            ol {margin: 0 auto; width: 50%}
+            table, th, td {border: 1px;}
         </style>
     </head>
     <body>
@@ -33,7 +36,7 @@
         </nav>
         <h1>Pop</h1>
         <h2>These are my top 5 pop artists on Spotify</h2>
-        <ol>
+        <ol class="top5artists">
             <li>Post Malone</li>
             <li>Doja Cat</li>
             <li>Blackbear</li>
@@ -44,8 +47,8 @@
         <h2>Post Malone</h2>
         <div class="postimageandtable">
         <img src="../images/postmalone.png" alt="Post Malone" width="500">
-        <h3>Post Malone's top 5 songs</h3>
         <table>
+            <caption>Post Malone's Top 5 Songs</caption>
             <tr>
                 <th>Ranking</th>
                 <th>Name</th>
@@ -95,8 +98,8 @@
         <h2>Doja Cat</h2>
         <div class="dojaimageandtable">
         <img src="../images/dojacat.png" alt="Doja Cat" width="500">
-        <h3>Doja Cat's top 5 songs</h3>
         <table>
+            <caption>Doja Cat's Top 5 Songs</caption>
             <tr>
                 <th>Ranking</th>
                 <th>Name</th>
@@ -146,8 +149,8 @@
         <h2>Blackbear</h2>
         <div class="blackbearimageandtable">
         <img src="../images/blackbear.png" alt="Blackbear" width="500">
-        <h3>Blackbear's top 5 songs</h3>
         <table>
+            <caption>Blackbear's Top 5 Songs</caption>
             <tr>
                 <th>Ranking</th>
                 <th>Name</th>
@@ -197,8 +200,8 @@
         <h2>Billie Eilish</h2>
         <div class="billieimageandtable">
         <img src="../images/billieeilish.png" alt="Billie Eilish" width="500">
-        <h3>Billie Eilish's top 5 songs</h3>
         <table>
+            <caption>Billie Eilish's Top 5 Songs</caption>
             <tr>
                 <th>Ranking</th>
                 <th>Name</th>
@@ -248,8 +251,8 @@
         <h2>Khalid</h2>
         <div class="khalidimageandtable">
         <img src="../images/khalid.png" alt="Khalid" width="500">
-        <h3>Khalid's top 5 songs</h3>
         <table>
+            <caption>Khalid's Top 5 Songs</caption>
             <tr>
                 <th>Ranking</th>
                 <th>Name</th>
