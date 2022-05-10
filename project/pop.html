@@ -5,25 +5,25 @@
         <title>Pop</title>
         <style>
             body {background-color: thistle;}
-            h1 {color: #ff1a75; font-family: Arial; text-align: center;}
-            li {color: #b84dff; font-family: Arial; text-align: center;}
-            h2 {color: #ff3385; font-family: Arial; text-align: center;}
+            h1 {color: #9D1E54; font-family: Arial; text-align: center;}
+            li {color: #8001C7; font-family: Arial; text-align: center;}
+            h2 {color: #823553; font-family: Arial; text-align: center;}
             h3 {font-family: Arial; color: #5900b3; text-align:center}
             caption {font-family: Arial; color: #5900b3; text-align:center; font-weight: bold; font-size: 20px;}
-            h4 {font-family: Arial; color: #b84dff; text-align: center;}
-            table {font-family: Arial; color: #9900ff;}
+            h4 {font-family: Arial; color: #7F0BC4; text-align: center;}
+            table {font-family: Arial; color: #8001C7;}
             nav {background-color: #cc99ff; font-family: Arial; text-align: center; font-size: 25px;}
             nav a {color: #5900b3;}
             .postimageandtable {display: flex; align-items: center; justify-content: center;}
-            .postmusicvideos {display: flex;}
+            .postmusicvideos {display: flex; justify-content: center;}
             .dojaimageandtable {display: flex; align-items: center; justify-content: center;}
-            .dojamusicvideos {display: flex;}
+            .dojamusicvideos {display: flex; justify-content: center;}
             .blackbearimageandtable {display:flex; align-items: center; justify-content: center;}
-            .blackbearmusicvideos {display: flex;}
+            .blackbearmusicvideos {display: flex; justify-content: center;}
             .billieimageandtable {display: flex; align-items: center; justify-content: center;}
-            .billiemusicvideos {display: flex;}
+            .billiemusicvideos {display: flex; justify-content: center;}
             .khalidimageandtable {display: flex; align-items: center; justify-content: center;}
-            .khalidmusicvideos {display: flex;}
+            .khalidmusicvideos {display: flex; justify-content: center;}
             a:hover {color:#ff3385;}
             ol {margin: 0 auto; width: 50%}
             table, th, td {border: 1px;}
@@ -43,56 +43,67 @@
             <li>Billie Eilish</li>
             <li>Khalid</li>
         </ol>
-        <hr>
-        <h2>Post Malone</h2>
-        <div class="postimageandtable">
-        <img src="../images/postmalone.png" alt="Post Malone" width="500">
-        <table>
-            <caption>Post Malone's Top 5 Songs</caption>
-            <tr>
-                <th>Ranking</th>
-                <th>Name</th>
-                <th>Number of Streams</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>One Right Now</td>
-                <td>196,439,138</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Circles</td>
-                <td>1,659,010,258</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Sunflower</td>
-                <td>2,199,466,537</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Rockstar</td>
-                <td>2,360,784,565</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Congratulations</td>
-                <td>1,512,066,363</td>
-            </tr>
-        </table>
-        </div>
-        <h3>Here are music videos of Post Malone's top 5 songs</h3>
-        <div class="postmusicvideos">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Tc0tLGWIqxA"></iframe>
-        <h4>One Right Now Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wXhTHyIgQ_U"></iframe>
-        <h4>Circles Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ApXoWvfEYVU"></iframe>
-        <h4>Sunflower Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UceaB4D0jpo"></iframe>
-        <h4>Rockstar Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SC4xMk98Pdc"></iframe>
-        <h4>Congratulations Music Video</h4>
+        <div>
+            <hr>
+            <h2>Post Malone</h2>
+            <div class="postimageandtable">
+            <img src="../images/postmalone.png" alt="Post Malone" width="500">
+            <table>
+                <caption>Post Malone's Top 5 Songs</caption>
+                <tr>
+                    <th>Ranking</th>
+                    <th>Name</th>
+                    <th>Number of Streams</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>One Right Now</td>
+                    <td>196,439,138</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Circles</td>
+                    <td>1,659,010,258</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sunflower</td>
+                    <td>2,199,466,537</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rockstar</td>
+                    <td>2,360,784,565</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Congratulations</td>
+                    <td>1,512,066,363</td>
+                </tr>
+            </table>
+            </div>
+            <h3>Here are music videos of Post Malone's top 5 songs</h3>
+            <div class="postmusicvideos">
+                <div>
+                    <iframe width="260" height="315" src="https://www.youtube.com/embed/Tc0tLGWIqxA"></iframe>
+                    <h4>One Right Now Music Video</h4>
+                </div>
+                <div>
+                    <iframe width="260" height="315" src="https://www.youtube.com/embed/wXhTHyIgQ_U"></iframe>
+                    <h4>Circles Music Video</h4>
+                </div>
+                <div>
+                    <iframe width="260" height="315" src="https://www.youtube.com/embed/ApXoWvfEYVU"></iframe>
+                    <h4>Sunflower Music Video</h4>
+                </div>
+                <div>
+                    <iframe width="260" height="315" src="https://www.youtube.com/embed/UceaB4D0jpo"></iframe>
+                    <h4>Rockstar Music Video</h4>
+                </div>
+                <div>
+                    <iframe width="260" height="315" src="https://www.youtube.com/embed/SC4xMk98Pdc"></iframe>
+                    <h4>Congratulations Music Video</h4>
+                </div>
         </div>
         <hr>
         <h2>Doja Cat</h2>
@@ -134,16 +145,26 @@
         </div>
         <h3>Here are music videos of Doja Cat's top 5 songs</h3>
         <div class="dojamusicvideos">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yxW5yuzVi8w"></iframe>
-        <h4>Woman Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dI3xkL7qUAc"></iframe>
-        <h4>Need to Know Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0EVVKs6DQLo"></iframe>
-        <h4>Kiss Me More Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JXgV1rXUoME"></iframe>
-        <h4>You Right Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/9Ko-nEYJ1GE"></iframe>
-        <h4>Get Into It (Yuh) Music Video</h4>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/yxW5yuzVi8w"></iframe><br>
+                <h4>Woman Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/dI3xkL7qUAc"></iframe><br>
+                <h4>Need to Know Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/0EVVKs6DQLo"></iframe><br>
+                <h4>Kiss Me More Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/JXgV1rXUoME"></iframe><br>
+                <h4>You Right Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/9Ko-nEYJ1GE"></iframe><br>
+                <h4>Get Into It (Yuh) Music Video</h4>
+            </div>
         </div>
         <hr>
         <h2>Blackbear</h2>
@@ -185,16 +206,26 @@
         </div>
         <h3>Here are music videos of Blackbear's top 5 songs</h3>
         <div class="blackbearmusicvideos">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PDeTO26fRVQ"></iframe>
-        <h4>idfc Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5cPW0ggFq04"></iframe>
-        <h4>hot girl bummer Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/J_n01uvyhI8"></iframe>
-        <h4>my ex's best friend Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-N89TPQdX2o"></iframe>
-        <h4>idfc (Acoustic) Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/fPziOGGqEpw"></iframe>
-        <h4>memory Music Video</h4>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/PDeTO26fRVQ"></iframe>
+                <h4>idfc Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/5cPW0ggFq04"></iframe>
+                <h4>hot girl bummer Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/J_n01uvyhI8"></iframe>
+                <h4>my ex's best friend Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/-N89TPQdX2o"></iframe>
+                <h4>idfc (Acoustic) Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/fPziOGGqEpw"></iframe>
+                <h4>memory Music Video</h4>
+            </div>
         </div>
         <hr>
         <h2>Billie Eilish</h2>
@@ -236,16 +267,26 @@
         </div>
         <h3>Here are music videos of Billie Eilish's top 5 songs</h3>
         <div class="billiemusicvideos">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5GJWxDKyk3A"></iframe>
-        <h4>Happier Than Ever Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/V1Pl8CzNzCw"></iframe>
-        <h4>Lovely (with Khalid) Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/cnGW8NR-toE"></iframe>
-        <h4>Bored Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5UWO4V_Ao_s"></iframe>
-        <h4>Happier Than Ever - Edit Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/DyDfgMOUjCI"></iframe>
-        <h4>Bad Guy Music Video</h4>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/5GJWxDKyk3A"></iframe>
+                <h4>Happier Than Ever Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/V1Pl8CzNzCw"></iframe>
+                <h4>Lovely (with Khalid) Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/cnGW8NR-toE"></iframe>
+                <h4>Bored Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/5UWO4V_Ao_s"></iframe>
+                <h4>Happier Than Ever - Edit Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/DyDfgMOUjCI"></iframe>
+                <h4>Bad Guy Music Video</h4>
+            </div>
         </div>
         <hr>
         <h2>Khalid</h2>
@@ -287,16 +328,26 @@
         </div>
         <h3>Here are music videos of Khalid's top 5 songs</h3>
         <div class="khalidmusicvideos">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/V1Pl8CzNzCw"></iframe>
-        <h4>Lovely (with Khalid) Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/tk36ovCMsU8"></iframe>
-        <h4>Silence Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/IPfJnp1guPc"></iframe>
-        <h4>Young Dumb & Broke Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/by3yRdlQvzs"></iframe>
-        <h4>Location Music Video</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GEAy7eXb2lo"></iframe>
-        <h4>Be Like That Music Video</h4>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/V1Pl8CzNzCw"></iframe>
+                <h4>Lovely (with Khalid) Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/tk36ovCMsU8"></iframe>
+                <h4>Silence Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/IPfJnp1guPc"></iframe>
+                <h4>Young Dumb & Broke Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/by3yRdlQvzs"></iframe>
+                <h4>Location Music Video</h4>
+            </div>
+            <div>
+                <iframe width="260" height="315" src="https://www.youtube.com/embed/GEAy7eXb2lo"></iframe>
+                <h4>Be Like That Music Video</h4>
+            </div>
         </div>
     </body>
 </html>
